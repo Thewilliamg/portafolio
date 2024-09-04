@@ -3,19 +3,22 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="bg-gray-500 w-full h-[5%] absolute ">
-        <ul className="flex flex-row justify-center gap-10">
+      <nav className="bg-[#82acce] w-full h-[7%] absolute flex items-center justify-around">
+        <ul className="flex flex-row justify-center items-center gap-20 w-auto">
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/perfil">Perfil</Link>
+            <Link to="/goals">Professional goals</Link>
           </li>
           <li>
-            <Link to="/objetivos">Aims</Link>
+            <Link to="/values">Ethical values</Link>
           </li>
           <li>
-            <Link to="/about">About me</Link>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact me</Link>
           </li>
         </ul>
       </nav>

@@ -6,19 +6,16 @@ const Layout = () => {
       <nav className="bg-[#82acce] w-full h-[7%] absolute flex items-center justify-around">
         <ul className="flex flex-row justify-center items-center gap-20 w-auto">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/goals">Professional goals</Link>
+            <Link to="/etica">Etica y valores</Link>
           </li>
           <li>
-            <Link to="/values">Ethical values</Link>
+            <Link to="/proyectos">Proyectos</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact me</Link>
+            <Link to="/contactame">Contactame</Link>
           </li>
         </ul>
       </nav>

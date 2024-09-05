@@ -4,10 +4,6 @@ import monrusa from "../img/monrusa.png"
 import cinema1 from "../img/cinema1.png"
 import cinema2 from "../img/cinema2.png"
 import cinema3 from "../img/cinema3.png"
-const Colors = {
-    primary: "[#021d34]",
-    secundary: "[#82acce]"
-}
 
 const Projects = () => {
 
@@ -18,7 +14,7 @@ const Projects = () => {
                     <h1 className="text-5xl font-bold mb-16 mt-10">/proyectosDesarrollados</h1>
                     <div className="flex gap-10 px-10 justify-center">
 
-                        <a name="card_a" href="https://github.com/Thewilliamg/foodLover" target="_blank" alt="Ver codigo" className="bg-red-400 w-1/5 flex rounded-xl overflow-hidden">
+                        <a name="card_a" href="https://github.com/Thewilliamg/foodLover" target="_blank" rel="noreferrer" alt="Ver codigo" className="bg-red-400 w-1/5 flex rounded-xl overflow-hidden">
                             <div name="card" className="w-full hover:bg-orange-700 hover:cursor-pointer h-72 bg-orange-600 box-content rounded-md p-4 flex justify-center items-center flex-col">
                                 <h2 className="font-bold text-3xl mb-3 text-[#021d34]">FoodLover</h2>
                                 <img className="w-5/6" src={foodimg} alt="food" />
@@ -29,7 +25,7 @@ const Projects = () => {
                                 <small className="w-full mt-3 mb-2 block font-semibold text-[#021d34]">Landing creada para presentar los deliciosos platillos que prepara nuestro restaurante insignia.</small>
                             </div>
                         </a>
-                        <a name="card_a" href="https://github.com/Thewilliamg/proyectoJavascript" target="_blank" alt="Ver codigo" className="bg-red-400 w-1/5 flex rounded-xl overflow-hidden">
+                        <a name="card_a" href="https://github.com/Thewilliamg/proyectoJavascript" target="_blank" rel="noreferrer" alt="Ver codigo" className="bg-red-400 w-1/5 flex rounded-xl overflow-hidden">
                             <div name="card" className="w-full hover:bg-orange-700 hover:cursor-pointer h-72 bg-orange-600 box-content rounded-md p-4 flex justify-center items-center flex-col">
                                 <h2 className="font-bold text-3xl mb-3 text-[#021d34]">Spotify</h2>
                                 <img className="w-5/6" src={spotify} alt="food" />
@@ -42,7 +38,7 @@ const Projects = () => {
                             </div>
                         </a>
 
-                        <a name="card_a" href="https://github.com/Thewilliamg/ExerciseMERN" target="_blank" alt="Ver codigo" className="bg-red-400 w-1/5 flex rounded-xl overflow-hidden">
+                        <a name="card_a" href="https://github.com/Thewilliamg/ExerciseMERN" target="_blank" alt="Ver codigo" rel="noreferrer" className="bg-red-400 w-1/5 flex rounded-xl overflow-hidden">
                             <div name="card" className="w-full hover:bg-orange-700 hover:cursor-pointer h-72 bg-orange-600 box-content rounded-md p-4 flex justify-center items-center flex-col">
                                 <h2 className="font-bold text-3xl mb-3 text-[#021d34]">Montañas Rusas</h2>
                                 <img className="w-5/6" src={monrusa} alt="food" />
@@ -56,7 +52,7 @@ const Projects = () => {
                             </div>
                         </a>
 
-                        <a name="card_a" href="https://github.com/Thewilliamg/ProyectoMongoII" target="_blank" alt="Ver codigo" className="bg-red-400 w-1/5 flex rounded-xl overflow-hidden">
+                        <a name="card_a" href="https://github.com/Thewilliamg/ProyectoMongoII" target="_blank" rel="noreferrer" alt="Ver codigo" className="bg-red-400 w-1/5 flex rounded-xl overflow-hidden">
                             <div name="card" className="w-full hover:bg-orange-700 hover:cursor-pointer h-72 bg-orange-600 box-content rounded-md p-4 flex justify-center items-center flex-col">
                                 <h2 className="font-bold text-3xl mb-2 text-[#021d34]">Interface de Cine</h2>
                                     <div className="w-full flex gap-2 justify-center">

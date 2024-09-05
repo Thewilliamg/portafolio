@@ -1,8 +1,3 @@
-const Colors = {
-    primary:"[#021d34]",
-    secundary:"[#82acce]"
-}
-
 const liClass = `border-1 border-[#021d34] text-[#82acce] text-3xl hover:text-orange-700 hover:bg-[#021d34] font-light ` 
 
 const Values = () => {

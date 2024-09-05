@@ -1,9 +1,4 @@
-const Colors = {
-  primary:"[#021d34]",
-  secundary:"[#82acce]"
-}
-
-const liClass = `border-1 border-[#021d34] text-[#82acce] text-3xl hover:text-orange-700 hover:bg-[#82acce] font-light w-[200px] h-[200px] flex flex-col justify-center bg-white` 
+const liClass = `border-1 border-[#021d34] text-[#82acce] text-3xl hover:text-orange-700 hover:bg-[#021d34] font-light w-[200px] h-[200px]` 
 
 const Contact = () => {
 

@@ -1,9 +1,4 @@
 import React, { useState } from 'react';
-const Colors = {
-    primary:"[#021d34]",
-    secundary:"[#82acce]"
-}
-
 
 const Home = () => {
   const [isMoved, setIsMoved] = useState(false);

@@ -5,5 +5,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <App />
+  <div className='flex flex-col h-svh bg-[#021d34]'>
+    <App />
+  </div>
 );

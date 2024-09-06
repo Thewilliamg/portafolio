@@ -5,22 +5,3 @@
 p {
     color: orange;
 }
-
-li {
-    font-size:large;
-    color: #021d34;
-    font-weight: 700;
-    padding: 0.5%;
-    align-items: center;
-    text-align: center;
-    min-width: max-content;
-    border: 1px solid;
-    border-color: #82acce;
-}
-li:hover{
-    color: #021d34;
-    background-color: rgb(255, 153, 0);
-    border-radius: 9%;
-    border-color: #021d34;
-    border: 1px solid;
-}

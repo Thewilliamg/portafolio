@@ -9,8 +9,8 @@ const Home = () => {
 
   return (
     <div 
-      className={`transition-transform duration-100 ${isMoved ? 'bg-white' : ''} 
-                  flex flex-col items-center justify-center h-svh bg-[#021d34] text-[#82acce]`}
+      className={`transition-transform ${isMoved ? 'bg-white' : ''} 
+                  flex flex-col items-center justify-center h-[90%] bg-[#021d34] text-[#82acce]`}
     >
       <h1 className="text-5xl font-bold mb-4">William David Rodriguez</h1>
       <p className="text-xl inline-block">
@@ -25,7 +25,7 @@ const Home = () => {
       >
         Cambiar tema
       </button>
-    <label className='text-center text-sm fixed bottom-5'>Esta pagina fue desarrollada con React y Tailwind CSS.</label>
+    <div className='text-center text-sm fixed bottom-5'>Esta pagina fue desarrollada con React y Tailwind CSS.</div>
     </div>
   );
 };
